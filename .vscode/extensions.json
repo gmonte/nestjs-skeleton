@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "abumalick.vscode-nvm",
+    "ashinzekene.nestjs"
+  ],
+}
