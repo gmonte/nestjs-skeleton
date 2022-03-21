@@ -27,7 +27,6 @@ export class UsersController {
   @ApiBody({ type: CreateUserDto })
   @ApiResponse({ type: UserDto })
   async create (@Body() user: CreateUserDto) {
-    console.log('AQUI', user)
     return await this.usersService.create(user)
   }
 
